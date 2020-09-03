@@ -70,3 +70,9 @@ header p {
   color: #ffffff;
   margin: 0 0 30px;
 }
+
+
+.blurred {
+  backdrop-filter: opacity(20%);
+  backdrop-filter: blur(2px);
+}

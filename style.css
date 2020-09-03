@@ -1,4 +1,6 @@
 body {
+  background-image: url('grid-3227459_1920.jpg');
+  background-size: cover;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
@@ -29,12 +31,11 @@ header p {
 }
 
 .jumbotron {
-  display: flex;
   align-items: center;
   background-image: url('cube-4270777_1920.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 600px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -46,17 +47,9 @@ header p {
 }
 
 .jumbotron h3 {
+  display: flex;
   margin: 0 0 20px;
   color: #fff;
-}
-
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
-}
-
-.col-md-6 {
-  margin: 0 0 30px;
 }
 
 .btn.btn-primary {

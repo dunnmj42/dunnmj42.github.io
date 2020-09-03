@@ -9,8 +9,7 @@ header {
   padding: 20px 0;
 }
 
-header .row,
-footer .row {
+header .row {
   display: flex;
   align-items: center;
 }
@@ -70,7 +69,6 @@ header p {
   color: #ffffff;
   margin: 0 0 30px;
 }
-
 
 .blurred {
   backdrop-filter: opacity(20%);

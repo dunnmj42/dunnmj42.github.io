@@ -71,6 +71,6 @@ header p {
 }
 
 .blurred {
-  backdrop-filter: opacity(20%);
+  backdrop-filter: opacity(30%);
   backdrop-filter: blur(2px);
 }

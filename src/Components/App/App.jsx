@@ -3,7 +3,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
-import Navbar from '../Navbar/Navbar'
+import NavBar from '../NavBar/NavBar'
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -16,10 +16,13 @@ export default function App() {
 
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <header className={classes.title}>
       <Typography variant="h2" component="h1" gutterBottom>
         Michael Dunn
+      </Typography>
+      <Typography variant="h4" gutterBottom>
+        Future Home of Portfolio Site
       </Typography>
       </header>
     </div>

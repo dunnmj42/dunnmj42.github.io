@@ -3,7 +3,7 @@ import React from "react";
 
 // MUI
 import { 
-  makeStyles,
+  // makeStyles,
   SwipeableDrawer,
   Divider,
   List,
@@ -16,14 +16,14 @@ import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 
 // MUI style
-const useStyles = makeStyles((theme) => ({
+// const useStyles = makeStyles((theme) => ({
 
-}));
+// }));
 
 export default function LinkDrawer({ open, setOpen }) {
 
   // Hooks
-  const classes = useStyles();
+  // const classes = useStyles();
 
   // Link list for drawer - pushes the user to places
   const linkList = [

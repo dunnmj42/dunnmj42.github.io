@@ -14,11 +14,9 @@ const theme = createMuiTheme({
 });
 
 ReactDOM.render(
-  <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <App />
-    </ThemeProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
+    </ThemeProvider>,
+  document.getElementById('react-root')
 );
